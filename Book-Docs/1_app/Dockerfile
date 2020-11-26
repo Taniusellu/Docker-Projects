@@ -12,4 +12,4 @@ ENTRYPOINT ["node", "./app.js"]
 
 #FROM - the base layer of an image
 
-# docker image build -t 1_app:latest . 
+# docker image build -t web:latest . 
