@@ -37,3 +37,17 @@ You should be able to access your app
 
 Note: if you bought the app up using the &, you will be able to see the HTTP 200 response code being logged in the terminal window. This indicate successfull requests, and you will see one for each time you load the web pacge 
 
+
+
+ ### How to bring down the app 
+ 
+ ```
+ docker-compose down 
+ ```
+ ###  Make app up again
+ 
+ This time i will use in the background, which is means, i have already pulled images, volumes and networks are there, and when i will make up again, it will be much faster.
+ ```
+ docker-compose up -d
+ ```
+  
