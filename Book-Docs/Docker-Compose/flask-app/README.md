@@ -14,3 +14,25 @@ Run the bellow commands:
 ```
 docker-compose up &
 ```
+check images
+```
+docker images    
+```
+check containers 
+```
+docker ps
+```
+check network 
+```
+docker network ls
+```
+check volumes
+```
+docker volume ls
+```
+
+You should be able to access your app
+
+<img width="345" alt="docker4" src="https://user-images.githubusercontent.com/13994900/100533790-c6e6c000-31cd-11eb-8ad3-cc454d4cfd02.PNG">
+
+Note: Every time when you access your app, automatically in your shell will show that logs was collected .
